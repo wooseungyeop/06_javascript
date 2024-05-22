@@ -11,7 +11,7 @@
 // OR의 경우 'apple'이 이미 Truthy 값이여서 true로 평가되고 
 // 논리 연산의 결과를 결정한 첫 번째 피연산자 apple을 그대로 반환한다.
 console.log('apple' || 'banana');       // apple
-console.log(false || 'banana');         // banana
+console.log(true || 'banana');         // banana
 console.log('apple' || false);          // apple
 
 // AND의 경우 좌항, 우항 모두 확인해야 하므로 

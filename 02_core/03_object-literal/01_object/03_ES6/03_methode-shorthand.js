@@ -21,3 +21,12 @@ var dog2 = {
 }
 
 dog2.eat('고구마');
+
+var dog3 = {
+    name : '키키',
+    num : [0, 1, 2, 3],
+    eat(food){
+        console.log(`${this.name}은 ${food}를 맛있게 먹는다${this.num}`);
+    }
+}
+dog3.eat("사료");
